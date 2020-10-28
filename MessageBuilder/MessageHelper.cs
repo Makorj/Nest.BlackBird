@@ -60,6 +60,10 @@ namespace BlackBird
                 private readonly static string BASE = CLIENT.BASE + " SEND";
 
                 public readonly static string COMMAND_LIST = BASE + " COMMAND LIST";
+                public readonly static string BUILD = BASE + " BUILD";
+                public readonly static string TEST = BASE + " TEST";
+                public readonly static string VCS_UPDATE = BASE + " VCS UPDATE";
+                public readonly static string PUBLISH = BASE + " PUBLISH";
             }
 
             public static string _USER(string login, string hasedPassword) => $"{CLIENT.USER} {login} {hasedPassword}";

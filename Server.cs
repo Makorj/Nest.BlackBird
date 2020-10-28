@@ -15,7 +15,7 @@ namespace BlackBird
 
     public class Server
     {
-        public static int VerboseLevel = 4;
+        public static int VerboseLevel = 0;
 
         private ServerInfo infos;
         private TcpListener listener;
